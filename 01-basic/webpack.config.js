@@ -18,6 +18,6 @@ module.exports = {
     },
     output: {
       path: __dirname,
-      filename: "./src/js/bundle.js"
+      filename: "./src/out/bundle.js"
     }
   };
