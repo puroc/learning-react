@@ -26,6 +26,6 @@ module.exports = {
   },    
   output: {
     path: __dirname,
-    filename: "./src/out/bundle.js"
+    filename: "./src/bundle.js"
   }
 };

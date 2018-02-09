@@ -1,13 +1,14 @@
 import React from 'react';
-import PCHeader from './pc_header.js';
-import PCFooter from './pc_footer.js';
+import PCHeader from './pc_header';
+import PCFooter from './pc_footer';
+
 export default class PCIndex extends React.Component {
-  render() {
-    return (
-      <div>
-        <PCHeader/>
-        <PCFooter/>
-      </div>
-      );
-  }
+	render() {
+		return (
+			<div>
+				<PCHeader></PCHeader>
+				<PCFooter></PCFooter>
+			</div>
+		);
+	};
 }
