@@ -113,7 +113,22 @@ const menuData = [{
     name: '注册结果',
     path: 'register-result',
   }],
-}];
+},
+{
+  name: '新布局',
+  icon: 'table',
+  path: 'new',
+  children: [{
+    name: '页面一',
+    path: 'page1',
+  }, {
+    name: '页面二',
+    path: 'page2',
+  }],
+}
+
+
+];
 
 function formatter(data, parentPath = '', parentAuthority) {
   return data.map((item) => {

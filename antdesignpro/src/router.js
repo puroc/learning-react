@@ -31,6 +31,7 @@ function RouterConfig({ history, app }) {
             authority={['admin', 'user']}
             redirectPath="/user/login"
           />
+          <Route path="/new" render={props => <NewLayout {...props} />} />
         </Switch>
       </ConnectedRouter>
     </LocaleProvider>
